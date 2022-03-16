@@ -1,14 +1,23 @@
 {
   "name": "emblem20",
   "title": "Fire Emblem Tabletop",
-  "description": "A minimalist game system with very simple Actor and Item models to support free-form system agnostic gameplay.",
+  "description": "A Fire Emblem automated tabletop system for Roll20-Foundry VTT version",
   "version": 0.2,
-  "author": "Atropos",
+  "author": "DocBlackstone",
   "scripts": ["scripts/emblem20.js"],
   "styles": ["styles/emblem20.css"],
   "packs": [],
   "languages": ["en"],
   "initiative": "1d20",
+   }
+  ],
+  "socket": false,
+  "initiative": "1d20",
   "gridDistance": 1,
-  "gridUnits": ""
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "resources.hp",
+  "secondaryTokenAttribute": "resources.exp",
+  "url": "https://github.com/DocBlackstone/emblem20",
+  "manifest": "https://github.com/DocBlackstone/emblem20/tree/master/FoundryVTT/system.json",
+  "download": "https://github.com/DocBlackstone/emblem20/tree/master/FoundryVTT//archive.zip"
 }
